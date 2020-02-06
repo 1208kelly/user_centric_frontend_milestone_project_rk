@@ -33,6 +33,7 @@
 /*---Navbar---*/
 .navalert-container {
     position: fixed;
+    background-color: #fff;
     top: 0;
     left: 0;
     padding-left: 20px;
@@ -95,6 +96,8 @@
 
 body {
     text-align: center;
+    overflow-y: scroll;
+    height: 1500px;
 }
 
 /*---Section---*/
@@ -105,7 +108,7 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: 140px;
-    margin: 70px 7px 60px 7px;
+    margin: 70px 7px 60px 10px;
     flex: auto;
     }
 
@@ -129,7 +132,7 @@ body {
 
 .spacer-full-width {
     height: 2px;
-    margin: 40px 20px;
-    background-color: #000;
+    margin: 40px 10px;
+    background-color: gray;
     padding: 0px;
 }
