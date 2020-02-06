@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald:100,200,300,400,500,600,700|Dosis:100,200,300,400,500,600,700|Roboto+Condensed:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Oswald:100,200,300,400,500,600,700|Cinzel:100,200,300,400,500,600,700|Roboto+Condensed:100,200,300,400,500,600,700');
 
 /*---Colors---*/
 
@@ -32,7 +32,7 @@
 
 /*---Navbar---*/
 .navalert-container {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     padding-left: 20px;
@@ -41,11 +41,21 @@
 }
 
 .navbar {
+    position: sticky;
     margin-bottom: 0;
     border: 0;
     padding: 0;
     width: 100%;
-    background-color: rgba(0,0,0,0.25);
+    background-color: rgba(0,0,0,0);
+}
+
+.navbar-toggler {
+    padding: 2px 24.8px 2px 0px;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
 }
 
 .navbar .navbar-toggler {
@@ -58,13 +68,13 @@
 }
 
 .navbar-name {
-    font-family: "Oswald", sans-serif;
+    font-family: "Cinzel", sans-serif;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 400;
-    font-size: 28px;
-    letter-spacing: 2px;
-    margin: 20px 10px 20px 10px;
+    font-size: 22.7px;
+    letter-spacing: 1.5px;
+    margin: 20px 48px 20px 0px;
     color: #000;
 }
 
@@ -90,11 +100,12 @@ body {
 /*---Section---*/
 .image-center {
     background: url("../images/DeathtoStock_Creative Community3.jpg");
+    background-blend-mode: overlay;
     background-position: center bottom;
-    background-size: 95%;
+    background-size: 100%;
     background-repeat: no-repeat;
     min-height: 140px;
-    margin: 100px 20px 60px 20px;
+    margin: 70px 7px 60px 7px;
     flex: auto;
     }
 
@@ -108,11 +119,12 @@ body {
 .title {
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
+    text-decoration: none;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 28px;
     text-align: center;
-    letter-spacing: 2px;
-    color: black;
+    letter-spacing: 1.5px;
+    color: #000;
 }
 
 .spacer-full-width {
