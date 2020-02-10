@@ -33,7 +33,7 @@
 /*---Navbar---*/
 .navalert-container {
     position: fixed;
-    background-color: #1d2124;
+    background-color: #fff;
     top: 0;
     left: 0;
     padding-left: 10px;
@@ -51,17 +51,18 @@
 }
 
 .navbar-toggler {
-    padding: 4px 20px;
+    padding: 4px 10px;
     font-size: 1.25rem;
     line-height: 1;
     background-color: transparent;
     border: 1px solid transparent;
     border-radius: .25rem;
+    background-position-x: left;
 }
 
 .navbar .navbar-toggler {
     border: 0;
-    float: right;
+    float: left;
 }
 
 .navbar .navbar-nav a {
@@ -75,8 +76,9 @@
     font-weight: 400;
     font-size: 22.7px;
     letter-spacing: 1.5px;
-    margin: 20px 90px 20px 0px;
-    color: #fff;
+    float: none;
+    margin: 10px auto;
+    color: #1e1e1e;
 }
 
 .nav-link {
@@ -94,14 +96,6 @@
     text-align: center;
 }
 
-.spacer-under-navbar {
-    height: 1px;
-    margin: 0px 10px;
-    background-color: #adb5bd;
-    padding: 0px;
-}
-
-
 /*---Section---*/
 .image-top {
     background: url("../images/DeathtoStock_Creative Community3.jpg");
@@ -110,7 +104,7 @@
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: 140px;
-    margin: 100px 7px 60px 10px;
+    margin: 100px 10px 60px 10px;
     flex: auto;
 }
 
@@ -122,10 +116,10 @@
 }
 
 body {
-    background-color: #1d2124;
-    text-align: center;
+    background-color: #1e1e1e;
+    text-align: ;
     overflow-y: scroll;
-    height: 1500px;
+    height: auto;
 }
 
 .title {
@@ -152,6 +146,55 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: 250px;
-    margin: 50px 7px 60px 10px;
+    margin: 50px 10px 60px 10px;
     flex: auto;
 }
+
+/*---Section---*/
+
+footer {
+    background-color: #fff;
+    color: #1e1e1e;
+    min-height: 120px;
+    margin: 0;
+}
+
+.footer-container {
+    text-align: left;
+}
+
+.footer-nav-item {
+    font-family: "Roboto+Condensed", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    margin: 20px 10px 20px 10px;
+    padding: 0px;
+    color: #1e1e1e;
+}
+
+.list-inline {
+    padding: 0 auto;
+}
+
+.social-links {
+    padding-bottom: 20px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #1e1e1e;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
