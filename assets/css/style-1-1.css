@@ -67,18 +67,27 @@
 
 .navbar .navbar-nav a {
     font-weight: bold;
+    font: #ec6200;
 }
 
-.navbar-name {
+.navbar-brand {
     font-family: "Roboto Condensed", sans-serif;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 400;
     font-size: 22.7px;
     letter-spacing: 1.5px;
-    float: none;
+    display: block;
     margin: 10px auto;
     color: #1e1e1e;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.navbar-brand:hover {
+    font: #ec6200;
 }
 
 .nav-link {
@@ -154,16 +163,22 @@ body {
 
 footer {
     background-color: #fff;
-    color: #1e1e1e;
     min-height: 120px;
     margin: 0;
 }
 
 .footer-container {
-    text-align: left;
+    text-align: center;
 }
 
-.footer-nav-item {
+.navbar-nav {
+    display: inline-flex;
+    flex-direction: row;
+    margin: 10px 10px;
+    list-style: none;
+}
+
+.footer-nav-link {
     font-family: "Roboto+Condensed", sans-serif;
     text-transform: uppercase;
     text-decoration: none;
@@ -175,11 +190,12 @@ footer {
 }
 
 .list-inline {
-    padding: 0 auto;
+    padding: 10px;
 }
 
 .social-links {
-    padding-bottom: 20px;
+    padding: 20px;
+    display: block;
 }
 
 .social-links li a i {
@@ -196,5 +212,9 @@ footer {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #ec6200;
 }
 
