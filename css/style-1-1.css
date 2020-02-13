@@ -42,16 +42,17 @@
 }
 
 .navbar {
-    position: sticky;
+    position: relative;
     margin-bottom: 0;
     border: 0;
     padding: 0;
     width: 100%;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0,0,0,0.25);
 }
 
 .navbar-toggler {
-    padding: 4px 10px;
+    padding: 4px;
+    margin-left: 4px !important;
     font-size: 1.25rem;
     line-height: 1;
     background-color: transparent;
@@ -103,6 +104,7 @@
 }
 
 .navbar-light .navbar-brand:hover {
+    font-weight: 400;
     text-decoration: none;
 }
 
@@ -133,19 +135,32 @@
     color: #ec6200;
 }
 
+.collapse:not(.show) {
+    display: none;
+}
+
+.navbar-collapse {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
 .navbarNavDropdown {
     text-align: center;
 }
 
 /*---Section---*/
 .image-top {
-    background: url("../images/DeathtoStock_Creative Community3.jpg");
+    background: url("../assets/images/DeathtoStock_Creative Community3.jpg");
     background-blend-mode: overlay;
     background-position: center bottom;
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: 140px;
-    margin: 100px 10px 60px 10px;
+    margin: 68px 10px 60px 10px;
     flex: auto;
 }
 
@@ -153,7 +168,11 @@
   transition-property: all;
   transition-duration: 1s;
   transition-timing-function: ease-in-out;
-  width: 100px;
+  transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+  width: 80px;
 }
 
 body {
@@ -188,7 +207,7 @@ p {
 }
 
 .image-center {
-    background: url("../images/DeathtoStock_Desk1.jpg");
+    background: url("../assets/images/DeathtoStock_Desk1.jpg");
     background-position: center bottom;
     background-size: 100%;
     background-repeat: no-repeat;
