@@ -65,8 +65,18 @@
     float: left;
 }
 
-.navbar-toggler-icon:hover {
-    color: #fff;
+.navbar-light .navbar-toggler {
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.1);
+}
+
+.navbar-light .navbar-toggler:hover {
+    color: #ec6200;
+    border-color: rgba(0,0,0,.1);
 }
 
 .navbar-nav {
@@ -86,10 +96,6 @@
     display: block;
     margin: 10px auto;
     color: #1e1e1e;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .navbar-light .navbar-brand {
@@ -98,11 +104,10 @@
 
 .navbar-light .navbar-brand:hover {
     text-decoration: none;
-    color: #ec6200;
 }
 
 .nav-link {
-    font-family: "Roboto+Condensed", sans-serif;
+    font-family: "Oswald", sans-serif;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 200;
@@ -110,6 +115,22 @@
     margin: 20px 10px 20px 10px;
     padding: 0px;
     color: #000;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    color: #1e1e1e;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    color: #ec6200;
 }
 
 .navbarNavDropdown {
