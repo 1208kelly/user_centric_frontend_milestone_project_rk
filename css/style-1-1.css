@@ -80,11 +80,27 @@
     border-color: rgba(0,0,0,.1);
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
 .navbar-nav {
-    display: inline-flex;
+    display: none;
+    position: absolute;
+    overflow: auto;
     flex-direction: row;
     margin: 10px 10px;
-    list-style: none;
+    min-width: 160px;
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    z-index: 1;
+}
+
+.navbar-nav a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
 }
 
 .navbar-brand {
@@ -153,7 +169,7 @@
 }
 
 /*---Section---*/
-.image-top {
+.image-top-home {
     background: url("../assets/images/DeathtoStock_Creative Community3.jpg");
     background-blend-mode: overlay;
     background-position: center bottom;
@@ -164,11 +180,23 @@
     flex: auto;
 }
 
+.image-top-about {
+    background: url("../assets/images/IMG_0067-1.jpg");
+    background-blend-mode: overlay;
+    background-position: center bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 140px;
+    margin: 68px 10px 60px 10px;
+    flex: auto;
+}
+
 .image-top:hover {
-  transition-property: all;
-  transition-duration: 1s;
-  transition-timing-function: ease-in-out;
-  transition: all 0.2s ease-in-out;
+    animation: ease-in-out;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
