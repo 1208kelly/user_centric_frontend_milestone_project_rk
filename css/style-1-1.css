@@ -256,6 +256,17 @@ footer {
     text-align: center;
 }
 
+.navbar-footer-nav {
+    display: flex;
+    position: absolute;
+    overflow: auto;
+    flex-direction: row;
+    margin: 10px 10px;
+    min-width: 160px;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 1;
+}
+
 .footer-nav-link {
     font-family: "Roboto Condensed", sans-serif;
     text-transform: uppercase;
