@@ -50,7 +50,7 @@
     background-color: rgba(0,0,0,0.25);
 }
 
-.navbar-toggler {
+.navbar-toggle {
     padding: 4px;
     margin-left: 4px !important;
     font-size: 1.25rem;
@@ -61,23 +61,24 @@
     background-position-x: left;
 }
 
-.navbar .navbar-toggler {
+.navbar .navbar-toggle {
     border: 0;
     float: left;
+    display: block;
 }
 
-.navbar-light .navbar-toggler {
+.navbar-light .navbar-toggle {
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
-    color: rgba(0,0,0,.5);
-    border-color: rgba(0,0,0,.1);
+    color: rgba(0,0,0,0);
+    border-color: rgba(0,0,0,0);
 }
 
-.navbar-light .navbar-toggler:hover {
+.navbar-light .navbar-toggle:hover {
     color: #ec6200;
-    border-color: rgba(0,0,0,.1);
+    border-color: rgba(0,0,0,0);
 }
 
 .dropdown {
