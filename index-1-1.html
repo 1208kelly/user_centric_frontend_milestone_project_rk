@@ -15,25 +15,17 @@
 
             <nav class="navbar sticky-top navbar-light bg-transparent navbar-expand-sm">
                 
-                    <div class="dropdown">
-                        <button class="navbar-toggle ml-auto collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Togglenavigation">
-                            <i class="fas fa-ellipsis-v"></i>
-                        </button>
-                        <ul class="navbar-nav mr-auto">
-                            <li class="active nav-item mr-2"><a class="nav-link" href="about.html">About</a></li>
-                            <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Portfolio</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="portfolio_projects/project-01.html">Project 01</a>
-                                <a class="dropdown-item" href="portfolio_projects/project-02.html">Project 02</a>
-                                <a class="dropdown-item" href="portfolio_projects/project-03.html">Project 03</a>
-                            </div>
-                            <li class="nav-item mr-2"><a class="nav-link" href="history.html">History</a></li>
-                            <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact</a></li>
-                            </li>
-                        </ul>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="about.html">About</a>
+                      <a class="dropdown-item" href="history.html">History</a>
+                      <a class="dropdown-item" href="contact.html">Contact</a>
                     </div>
+                  </div>
+                
                 <a href="index-1-1.html" class="navbar-brand">Rob Ó Ceallaigh</a>
             </nav>
         </div>
@@ -62,22 +54,18 @@
     
     </section>
     <footer class="container-fluid">
-        <div class="footer-container" id="footer-navbar"></div>    
-            <ul class="navbar-footer-nav mr-auto">
-                <li class="footer-nav-item mr-2"><a class="footer-nav-link" href="about.html">About</a></li>
-                <li class="nav-item dropdown">
-                <a class="footer-nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Portfolio</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Project 01</a>
-                    <a class="dropdown-item" href="#">Project 02</a>
-                    <a class="dropdown-item" href="#">Project 03</a>
-                </div>
-                <li class="footer-nav-item mr-2"><a class="footer-nav-link" href="history.html">History</a></li>
-                <li class="footer-nav-item mr-2"><a class="footer-nav-link" href="contact.html">Contact</a></li>
-                </li>
-            </ul>
-        </div>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="history.html">History</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        
         
             <div class="col-sm-12">
                 <ul class="list-inline social-links">
@@ -108,7 +96,7 @@
                     </li>
                 </ul>
             </div>
-        </div>
+        
 
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

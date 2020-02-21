@@ -47,8 +47,307 @@
     border: 0;
     padding: 0;
     width: 100%;
-    background-color: rgba(0,0,0,0.25);
 }
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-secondary {
+    color: rgba(0, 0, 0, 0.5);
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.btn-secondary:hover {
+    color: #ec6200;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.show>.btn-secondary.dropdown-toggle {
+    color: rgba(0, 0, 0, 0.5);
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.dropdown-toggle::after {
+    display: none;
+    margin-left: .255em;
+    vertical-align: .255em;
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
+
+.dropdown-item {
+    font-family: "Oswald", sans-serif;
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 300;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    color: #1e1e1e;
+}
+
+.dropdown-item:hover {
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    color: #ec6200;
+}
+
+.navbar-brand {
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 22.7px;
+    letter-spacing: 1.5px;
+    display: block;
+    margin: 10px auto;
+    color: #1e1e1e;
+}
+
+.navbar-light .navbar-brand {
+    color: #1e1e1e;
+}
+
+.navbar-light .navbar-brand:hover {
+    font-weight: 400;
+    text-decoration: none;
+}
+
+/*---Section---*/
+.image-top-home {
+    background: url("../assets/images/DeathtoStock_Creative Community3.jpg");
+    background-blend-mode: overlay;
+    background-position: center bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 140px;
+    margin: 68px 10px 60px 10px;
+    flex: auto;
+}
+
+.image-top-home:hover {
+    animation: ease-in-out;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+  width: 80px;
+}
+
+body {
+    background-color: #1e1e1e;
+    text-align: center;
+    text-decoration: none;
+    overflow-y: scroll;
+    height: auto;
+}
+
+p {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.title {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: #fff;
+}
+
+.spacer-full-width {
+    height: 1px;
+    margin: 40px 10px;
+    background-color: #adb5bd;
+    padding: 0px;
+}
+
+.image-center {
+    background: url("../assets/images/DeathtoStock_Desk1.jpg");
+    background-position: center bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    margin: 50px 10px 60px 10px;
+    flex: auto;
+}
+
+/*---Footer---*/
+
+footer {
+    background-color: #fff;
+    min-height: 120px;
+    margin: 0;
+}
+
+.footer-container {
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-link {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 12px;
+    margin: 20px 10px 20px 10px;
+    padding: 0px;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    color: #1e1e1e;
+}
+
+.nav-link:hover {
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    color: #ec6200;
+}
+
+.navbar-footer-nav {
+    display: flex;
+    position: relative;
+    padding: 10px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.footer-nav-link {
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    margin: 20px 5px 20px 5px;
+    padding: 0px;
+    color: #1e1e1e;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.footer-nav-link:hover {
+    text-decoration: none;
+    color: #ec6200;
+}
+
+.footer-nav-item {
+    text-decoration: none;
+    margin-right: 0;
+}
+
+.list-inline {
+    padding: 10px;
+}
+
+.social-links {
+    padding-bottom: 20px;
+    display: block;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 17px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #1e1e1e;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #ec6200;
+}
+
+
+/*---About---*/
+
+.image-top-about {
+    background: url("../assets/images/IMG_0067-1.jpg");
+    background-blend-mode: overlay;
+    background-position: center bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    margin: 68px 10px 20px 10px;
+    flex: auto;
+}
+
+/*---History---*/
+
+/*---Contact---*/
+
+/*---Project---*/
+
+
+
+
+
 
 .navbar-toggle {
     padding: 4px;
@@ -104,53 +403,6 @@
     display: block;
 }
 
-.navbar-brand {
-    font-family: "Roboto Condensed", sans-serif;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 22.7px;
-    letter-spacing: 1.5px;
-    display: block;
-    margin: 10px auto;
-    color: #1e1e1e;
-}
-
-.navbar-light .navbar-brand {
-    color: #1e1e1e;
-}
-
-.navbar-light .navbar-brand:hover {
-    font-weight: 400;
-    text-decoration: none;
-}
-
-.nav-link {
-    font-family: "Oswald", sans-serif;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: 200;
-    font-size: 12px;
-    margin: 20px 10px 20px 10px;
-    padding: 0px;
-    color: #000;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    font-family: "Roboto Condensed", sans-serif;
-    font-weight: 400;
-    transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -webkit-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    color: #1e1e1e;
-}
-
-.navbar-light .navbar-nav .nav-link:hover {
-    font-family: "Roboto Condensed", sans-serif;
-    font-weight: 400;
-    color: #ec6200;
-}
 
 .collapse:not(.show) {
     display: none;
@@ -168,152 +420,3 @@
 .navbarNavDropdown {
     text-align: center;
 }
-
-/*---Section---*/
-.image-top-home {
-    background: url("../assets/images/DeathtoStock_Creative Community3.jpg");
-    background-blend-mode: overlay;
-    background-position: center bottom;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    min-height: 140px;
-    margin: 68px 10px 60px 10px;
-    flex: auto;
-}
-
-.image-top-about {
-    background: url("../assets/images/IMG_0067-1.jpg");
-    background-blend-mode: overlay;
-    background-position: center bottom;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    min-height: 140px;
-    margin: 68px 10px 60px 10px;
-    flex: auto;
-}
-
-.image-top:hover {
-    animation: ease-in-out;
-    transition-property: all;
-    transition-duration: 1s;
-    transition-timing-function: ease-in-out;
-    transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -webkit-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-  width: 80px;
-}
-
-body {
-    background-color: #1e1e1e;
-    text-align: center;
-    overflow-y: scroll;
-    height: auto;
-}
-
-p {
-    margin-top: 100px;
-    margin-bottom: 1rem;
-    color: #fff;
-}
-
-.title {
-    font-family: "Oswald", sans-serif;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 28px;
-    text-align: center;
-    letter-spacing: 1.5px;
-    color: #fff;
-}
-
-.spacer-full-width {
-    height: 1px;
-    margin: 40px 10px;
-    background-color: #adb5bd;
-    padding: 0px;
-}
-
-.image-center {
-    background: url("../assets/images/DeathtoStock_Desk1.jpg");
-    background-position: center bottom;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    min-height: 250px;
-    margin: 50px 10px 60px 10px;
-    flex: auto;
-}
-
-/*---Footer---*/
-
-footer {
-    background-color: #fff;
-    min-height: 120px;
-    margin: 0;
-}
-
-.footer-container {
-    text-align: center;
-}
-
-.navbar-footer-nav {
-    display: flex;
-    position: absolute;
-    overflow: auto;
-    flex-direction: row;
-    margin: 10px 10px;
-    min-width: 160px;
-    background-color: rgba(0, 0, 0, 0);
-    z-index: 1;
-}
-
-.footer-nav-link {
-    font-family: "Roboto Condensed", sans-serif;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 12px;
-    margin: 20px 10px 20px 10px;
-    padding: 0px;
-    color: #1e1e1e;
-    transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -webkit-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-}
-
-.footer-nav-link:hover {
-    text-decoration: none;
-    color: #ec6200;
-}
-
-.list-inline {
-    padding: 10px;
-}
-
-.social-links {
-    padding: 20px;
-    display: block;
-}
-
-.social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 17px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: #1e1e1e;
-    transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -webkit-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-}
-
-.social-links li a i:hover {
-    background: #ec6200;
-}
-
