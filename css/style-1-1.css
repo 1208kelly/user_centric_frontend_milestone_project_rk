@@ -508,7 +508,7 @@ input[type=submit]:hover {
 .container.contact-top {
     margin-top: 60px;
     margin-bottom: 10px;
-    padding: 20px;
+    padding: 20px 20px 5px 20px;
 }
 
 .container.contact-form {
