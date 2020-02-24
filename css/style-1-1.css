@@ -3,9 +3,9 @@
 /*---Colors---*/
 
 
-/*--------------------Media Queries---------------------*/
-/*--------------------Tablets--------------------*/
-media screen and (min-width: 768px) {
+/*----------------------------------------Media Queries-----------------------------------------*/
+/*----------------------------------------Tablets----------------------------------------*/
+@media screen and (min-width: 768px) {
     .image-center {
     background: url("../images/DeathtoStock_Creative Community3.jpg");
     background-position: center bottom;
@@ -17,8 +17,8 @@ media screen and (min-width: 768px) {
     }
 }
 
-/*--------------------Desktops--------------------*/
-media screen and (min-width: 1150px) {
+/*----------------------------------------Desktops----------------------------------------*/
+@media screen and (min-width: 1150px) {
     .image-center {
     background: url("../images/DeathtoStock_Creative Community3.jpg");
     background-position: center bottom;
@@ -30,7 +30,7 @@ media screen and (min-width: 1150px) {
     }
 }
 
-/*--------------------Header--------------------*/
+/*----------------------------------------Header----------------------------------------*/
 .navalert-container {
     position: fixed;
     background-color: #fff;
@@ -177,7 +177,7 @@ media screen and (min-width: 1150px) {
     text-decoration: none;
 }
 
-/*--------------------Section--------------------*/
+/*----------------------------------------Section----------------------------------------*/
 .image-top-home {
     background: url("../assets/images/DeathtoStock_Creative Community3.jpg");
     background-blend-mode: overlay;
@@ -308,7 +308,7 @@ p {
     flex: auto;
 }
 
-/*--------------------Footer--------------------*/
+/*----------------------------------------Footer----------------------------------------*/
 
 footer {
     background-color: #fff;
@@ -405,7 +405,7 @@ footer {
 }
 
 
-/*--------------------About--------------------*/
+/*----------------------------------------About----------------------------------------*/
 
 .image-top-about {
     background: url("../assets/images/profile-01.jpg");
@@ -499,7 +499,7 @@ footer {
     flex: auto;
 }
 
-/*--------------------History--------------------*/
+/*----------------------------------------History----------------------------------------*/
 
 .image-top-history {
     background: url("../assets/images/IMG_0630_rt2 copy.jpg");
@@ -521,7 +521,7 @@ footer {
     padding: 0px;
 }
 
-/*--------------------Contact--------------------*/
+/*----------------------------------------Contact----------------------------------------*/
 
 .image-top-contact {
     background: url("../assets/images/Death_to_stock_photography_Wake_Up_2 copy.jpg");
