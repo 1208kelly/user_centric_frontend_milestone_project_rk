@@ -392,12 +392,12 @@ footer {
 /*---About---*/
 
 .image-top-about {
-    background: url("../assets/images/IMG_0067-1.jpg");
+    background: url("../assets/images/profile-01.jpg");
     background-blend-mode: overlay;
     background-position: center bottom;
     background-size: 100%;
     background-repeat: no-repeat;
-    min-height: 400px;
+    min-height: 470px;
     margin: 68px 10px 20px 10px;
     border: solid;
     border-color: #fff;
@@ -417,7 +417,7 @@ footer {
 }
 
 .image-play-two {
-    background: url("../assets/images/IMG_1089.jpg");
+    background: url("../assets/images/drums-01.jpg");
     background-position: bottom;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -441,7 +441,7 @@ footer {
 }
 
 .image-play-four {
-    background: url("../assets/images/IMG_0668.jpg");
+    background: url("../assets/images/iron-throne-01.JPG");
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
