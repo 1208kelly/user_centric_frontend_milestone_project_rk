@@ -35,22 +35,37 @@
     </header>
 
     <section>
-        <div class="row no-gutters">
-            <p>Contact Page</p>
-            <a href="#" class="col-s-12 image-top"></a>
+        <div class="container contact-top">
+            <h3>Contact</h3>
         </div>
-        <div class="container title-bottom-center">
-                <div class="row no-gutters">
-                    <div class="col-md-12">
-                        <h3 class="title">Contact</h3>
-                    </div>
-                </div>
-        </div>
-        <div class="spacer spacer-full-width">
-        </div>
+        <div class="container contact-form">
+            <form action="/action_page.php">
+                <label for="fname">First Name *</label>
+                <input type="text" id="fname" name="firstname" placeholder="First name">
 
-        <div class="row no-gutters">
-            <a href="#" class="col-s-12 image-center"></a>
+                <label for="lname">Last Name *</label>
+                <input type="text" id="lname" name="lastname" placeholder="Last name">
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                <option value="0">Select option:</option>
+                <option value="1"></option>
+                <option value="2">Ireland</option>
+                <option value="3">UK</option>
+                <option value="4">USA</option>
+                </select>
+
+                <label for="email">E-mail *</label>
+                <input type="text" id="email" name="email" placeholder="E-mail">
+
+                <label for="subject">Subject *</label>
+                <input type="text" id="subject" name="subject" placeholder="Subject">
+
+                <label for="message">Message *</label>
+                <textarea id="subject" name="message" placeholder="Message" style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
         </div>
     
     </section>

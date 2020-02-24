@@ -190,6 +190,7 @@
 
 body {
     background-color: #1e1e1e;
+    color: #fff;
     text-align: center;
     text-decoration: none;
     overflow-y: scroll;
@@ -458,7 +459,7 @@ footer {
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: 100px;
-    margin: 20px 10px 30px 10px;
+    margin: 20px 10px 60px 10px;
     border: solid;
     border-color: #fff;
     flex: auto;
@@ -470,7 +471,7 @@ footer {
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: 100px;
-    margin: 20px 10px 30px 10px;
+    margin: 20px 10px 60px 10px;
     border: solid;
     border-color: #fff;
     flex: auto;
@@ -479,6 +480,43 @@ footer {
 /*---History---*/
 
 /*---Contact---*/
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #ec6200;
+    color: #fff;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #bb4e00;
+}
+
+.container.contact-top {
+    margin-top: 60px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.container.contact-form {
+    border-radius: 5px;
+    background-color: #1e1e1e;
+    margin-bottom: 40px;
+    padding: 20px;
+}
 
 /*---Project---*/
 
