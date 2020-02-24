@@ -166,11 +166,13 @@
 .image-top-home {
     background: url("../assets/images/DeathtoStock_Creative Community3.jpg");
     background-blend-mode: overlay;
-    background-position: center bottom;
+    background-position: bottom;
     background-size: 100%;
     background-repeat: no-repeat;
-    min-height: 140px;
+    min-height: 200px;
     margin: 68px 10px 60px 10px;
+    border: solid;
+    border-color: #fff;
     flex: auto;
 }
 
@@ -183,7 +185,7 @@
     -moz-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
-  width: 80px;
+    width: 80px;
 }
 
 body {
@@ -195,6 +197,7 @@ body {
 }
 
 p {
+    font-size: 14px;
     margin-top: 40px;
     margin-bottom: 30px;
     color: #fff;
@@ -211,6 +214,29 @@ p {
     color: #fff;
 }
 
+.skill {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: #fff;
+}
+
+.skill-bottom {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    margin-bottom: 60px;
+    color: #fff;
+}
+
 .spacer-full-width {
     height: 1px;
     margin: 40px 10px;
@@ -218,13 +244,51 @@ p {
     padding: 0px;
 }
 
-.image-center {
-    background: url("../assets/images/DeathtoStock_Desk1.jpg");
-    background-position: center bottom;
+.image-java {
+    background: url("../assets/images/javascript_logo.jpg");
+    background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
-    min-height: 250px;
-    margin: 50px 10px 60px 10px;
+    min-height: 180px;
+    margin: 20px 10px 30px 10px;
+    border: solid;
+    border-color: #fff;
+    flex: auto;
+}
+
+.image-sql {
+    background: url("../assets/images/logo-sql.png");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 180px;
+    margin: 20px 10px 30px 10px;
+    border: solid;
+    border-color: #fff;
+    flex: auto;
+}
+
+.image-python {
+    background: url("../assets/images/python.jpeg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 180px;
+    margin: 20px 10px 30px 10px;
+    border: solid;
+    border-color: #fff;
+    flex: auto;
+}
+
+.image-django {
+    background: url("../assets/images/django.png");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 180px;
+    margin: 20px 10px 30px 10px;
+    border: solid;
+    border-color: #fff;
     flex: auto;
 }
 
@@ -335,6 +399,80 @@ footer {
     background-repeat: no-repeat;
     min-height: 400px;
     margin: 68px 10px 20px 10px;
+    border: solid;
+    border-color: #fff;
+    flex: auto;
+}
+
+.image-play-one {
+    background: url("../assets/images/DeathtoStock_Simplify3 copy.jpg");
+    background-position: bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 100px;
+    margin: 20px 10px 30px 10px;
+    border: solid;
+    border-color: #fff;
+    flex: auto;
+}
+
+.image-play-two {
+    background: url("../assets/images/IMG_1089.jpg");
+    background-position: bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 100px;
+    margin: 20px 10px 30px 10px;
+    border: solid;
+    border-color: #fff;
+    flex: auto;
+}
+
+.image-play-three {
+    background: url("../assets/images/Death_to_Stock_Photography_RideorDie_3 copy.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 100px;
+    margin: 20px 10px 30px 10px;
+    border: solid;
+    border-color: #fff;
+    flex: auto;
+}
+
+.image-play-four {
+    background: url("../assets/images/IMG_0668.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 100px;
+    margin: 20px 10px 30px 10px;
+    border: solid;
+    border-color: #fff;
+    flex: auto;
+}
+
+.image-play-five {
+    background: url("../assets/images/Death_to_stock_photography_farm_8 copy.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 100px;
+    margin: 20px 10px 30px 10px;
+    border: solid;
+    border-color: #fff;
+    flex: auto;
+}
+
+.image-play-six {
+    background: url("../assets/images/DeathtoStock_SlowDown5 copy.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 100px;
+    margin: 20px 10px 30px 10px;
+    border: solid;
+    border-color: #fff;
     flex: auto;
 }
 
