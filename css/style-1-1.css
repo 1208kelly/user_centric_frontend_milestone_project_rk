@@ -6,7 +6,7 @@
 /*----------------------------------------Media Queries-----------------------------------------*/
 /*----------------------------------------Tablets----------------------------------------*/
 @media screen and (min-width: 768px) {
-    .image-center {
+    .image-top-home {
     background: url("../images/DeathtoStock_Creative Community3.jpg");
     background-position: center bottom;
     background-size: 80%;
@@ -17,17 +17,22 @@
     }
 }
 
+
 /*----------------------------------------Desktops----------------------------------------*/
-@media screen and (min-width: 1150px) {
-    .image-center {
+@media screen and (min-width: 1200px) {
+    .image-top-home {
     background: url("../images/DeathtoStock_Creative Community3.jpg");
-    background-position: center bottom;
+    background-position: top;
     background-size: 90%;
     background-repeat: no-repeat;
-    min-height: 380px;
+    
     margin: 100px 20px 60px 20px;
     flex: auto;
     }
+}
+
+.btn {
+    display: none;
 }
 
 /*----------------------------------------Header----------------------------------------*/
@@ -481,7 +486,7 @@ footer {
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: 100px;
-    margin: 20px 10px 60px 10px;
+    margin: 20px 10px 30px 10px;
     border: solid;
     border-color: #fff;
     flex: auto;
@@ -493,10 +498,29 @@ footer {
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: 100px;
-    margin: 20px 10px 60px 10px;
+    margin: 20px 10px 30px 10px;
     border: solid;
     border-color: #fff;
     flex: auto;
+}
+
+.image-list-top {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: nowrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.image-list-bottom {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: nowrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-bottom: 60px;
 }
 
 /*----------------------------------------History----------------------------------------*/
@@ -628,7 +652,7 @@ input[type=submit]:hover {
 
 
 
-.navbar-toggle {
+navbar-toggle {
     padding: 4px;
     margin-left: 4px !important;
     font-size: 1.25rem;
@@ -639,13 +663,13 @@ input[type=submit]:hover {
     background-position-x: left;
 }
 
-.navbar .navbar-toggle {
+navbar  navbar-toggle {
     border: 0;
     float: left;
     display: block;
 }
 
-.navbar-light .navbar-toggle {
+navbar-light navbar-toggle {
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -654,17 +678,17 @@ input[type=submit]:hover {
     border-color: rgba(0,0,0,0);
 }
 
-.navbar-light .navbar-toggle:hover {
+navbar-light navbar-toggle:hover {
     color: #ec6200;
     border-color: rgba(0,0,0,0);
 }
 
-.dropdown {
+dropdown {
     position: relative;
     display: inline-block;
 }
 
-.navbar-nav {
+navbar-nav {
     display: none;
     position: absolute;
     overflow: auto;
@@ -675,7 +699,7 @@ input[type=submit]:hover {
     z-index: 1;
 }
 
-.navbar-nav a {
+navbar-nav a {
     color: #fff;
     padding: 12px 16px;
     text-decoration: none;
@@ -683,11 +707,11 @@ input[type=submit]:hover {
 }
 
 
-.collapse:not(.show) {
+collapse:not(.show) {
     display: none;
 }
 
-.navbar-collapse {
+navbar-collapse {
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
     -ms-flex-positive: 1;
@@ -696,6 +720,6 @@ input[type=submit]:hover {
     align-items: center;
 }
 
-.navbarNavDropdown {
+navbarNavDropdown {
     text-align: center;
 }
