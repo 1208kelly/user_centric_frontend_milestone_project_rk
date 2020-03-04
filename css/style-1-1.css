@@ -5,7 +5,7 @@
 
 /*----------------------------------------Media Queries-----------------------------------------*/
 /*----------------------------------------Tablets----------------------------------------*/
-@media screen and (min-width: 768px) {
+media screen and (min-width: 768px) {
     .image-top-home {
     background: url("../images/DeathtoStock_Creative Community3.jpg");
     background-position: center bottom;
@@ -13,13 +13,13 @@
     background-repeat: no-repeat;
     min-height: 320px;
     margin: 100px 20px 60px 20px;
-    flex: auto;
+    
     }
 }
 
 
 /*----------------------------------------Desktops----------------------------------------*/
-@media screen and (min-width: 1200px) {
+media screen and (min-width: 1200px) {
     .image-top-home {
     background: url("../images/DeathtoStock_Creative Community3.jpg");
     background-position: top;
@@ -27,7 +27,7 @@
     background-repeat: no-repeat;
     
     margin: 100px 20px 60px 20px;
-    flex: auto;
+    
     }
 }
 
@@ -438,7 +438,7 @@ footer {
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: 100px;
-    max-width: 90%;
+    max-width: 100%;
     padding: 3px;
     border: solid;
     border-color: #fff;
@@ -451,7 +451,7 @@ footer {
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: 100px;
-    max-width: 90%;
+    max-width: 100%;
     padding: 3px;
     border: solid;
     border-color: #fff;
@@ -464,7 +464,7 @@ footer {
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: 100px;
-    max-width: 90%;
+    max-width: 100%;
     padding: 3px;
     border: solid;
     border-color: #fff;
@@ -477,7 +477,7 @@ footer {
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: 100px;
-    max-width: 90%;
+    max-width: 100%;
     padding: 3px;
     border: solid;
     border-color: #fff;
@@ -490,7 +490,7 @@ footer {
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: 100px;
-    max-width: 90%;
+    max-width: 100%;
     padding: 3px;
     border: solid;
     border-color: #fff;
@@ -503,11 +503,19 @@ footer {
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: 100px;
-    max-width: 90%;
+    max-width: 100%;
     padding: 3px;
     border: solid;
     border-color: #fff;
     
+}
+
+.image-spacer {
+    margin: 10px;
+}
+
+.container-images {
+    margin-bottom: 50px;
 }
 
 
