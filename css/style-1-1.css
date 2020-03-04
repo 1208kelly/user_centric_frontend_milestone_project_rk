@@ -438,10 +438,11 @@ footer {
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: 100px;
-    margin: 20px 10px 30px 10px;
+    max-width: 90%;
+    padding: 3px;
     border: solid;
     border-color: #fff;
-    flex: auto;
+    
 }
 
 .image-play-two {
@@ -450,10 +451,11 @@ footer {
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: 100px;
-    margin: 20px 10px 30px 10px;
+    max-width: 90%;
+    padding: 3px;
     border: solid;
     border-color: #fff;
-    flex: auto;
+    
 }
 
 .image-play-three {
@@ -462,10 +464,11 @@ footer {
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: 100px;
-    margin: 20px 10px 30px 10px;
+    max-width: 90%;
+    padding: 3px;
     border: solid;
     border-color: #fff;
-    flex: auto;
+    
 }
 
 .image-play-four {
@@ -474,10 +477,11 @@ footer {
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: 100px;
-    margin: 20px 10px 30px 10px;
+    max-width: 90%;
+    padding: 3px;
     border: solid;
     border-color: #fff;
-    flex: auto;
+    
 }
 
 .image-play-five {
@@ -486,10 +490,11 @@ footer {
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: 100px;
-    margin: 20px 10px 30px 10px;
+    max-width: 90%;
+    padding: 3px;
     border: solid;
     border-color: #fff;
-    flex: auto;
+    
 }
 
 .image-play-six {
@@ -498,30 +503,16 @@ footer {
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: 100px;
-    margin: 20px 10px 30px 10px;
+    max-width: 90%;
+    padding: 3px;
     border: solid;
     border-color: #fff;
-    flex: auto;
+    
 }
 
-.image-list-top {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: nowrap;
-    margin-right: -15px;
-    margin-left: -15px;
-}
 
-.image-list-bottom {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: nowrap;
-    margin-right: -15px;
-    margin-left: -15px;
-    margin-bottom: 60px;
-}
+
+
 
 /*----------------------------------------History----------------------------------------*/
 
