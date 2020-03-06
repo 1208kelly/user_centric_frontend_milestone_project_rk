@@ -5,30 +5,24 @@
 
 /*----------------------------------------Media Queries-----------------------------------------*/
 /*----------------------------------------Tablets----------------------------------------*/
-media screen and (min-width: 768px) {
-    .image-top-home {
-    background: url("../images/DeathtoStock_Creative Community3.jpg");
-    background-position: center bottom;
-    background-size: 80%;
-    background-repeat: no-repeat;
-    min-height: 320px;
-    margin: 100px 20px 60px 20px;
-    
-    }
+@media only screen and (min-width: 768px)
+.container, .container-md, .container-sm {
+    max-width: 50%;
+}
+
+.image-top-about {
+    min-height: 100px;
 }
 
 
 /*----------------------------------------Desktops----------------------------------------*/
-media screen and (min-width: 1200px) {
-    .image-top-home {
-    background: url("../images/DeathtoStock_Creative Community3.jpg");
-    background-position: top;
-    background-size: 90%;
-    background-repeat: no-repeat;
-    
-    margin: 100px 20px 60px 20px;
-    
-    }
+@media only screen and (min-width: 1200px)
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 40%;
+}
+
+.image-top-about {
+    min-height: 100px;
 }
 
 .btn {
@@ -189,24 +183,17 @@ media screen and (min-width: 1200px) {
     background-position: bottom;
     background-size: 100%;
     background-repeat: no-repeat;
-    min-height: 200px;
-    margin: 80px 10px 60px 10px;
+    min-height: 220px;
+    width: 350px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 80px;
+    margin-bottom: 20px;
     border: solid;
     border-color: #fff;
-    flex: auto;
 }
 
-.image-top-home:hover {
-    animation: ease-in-out;
-    transition-property: all;
-    transition-duration: 1s;
-    transition-timing-function: ease-in-out;
-    transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -webkit-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    width: 80px;
-}
+
 
 body {
     background-color: #1e1e1e;
@@ -271,10 +258,12 @@ p {
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: 180px;
-    margin: 20px 10px 30px 10px;
+    width: 350px;
+    margin: 20px 30px;
+    margin-left: auto;
+    margin-right: auto;
     border: solid;
     border-color: #fff;
-    flex: auto;
 }
 
 .image-sql {
@@ -283,10 +272,12 @@ p {
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: 180px;
-    margin: 20px 10px 30px 10px;
+    width: 350px;
+    margin: 20px 30px;
+    margin-left: auto;
+    margin-right: auto;
     border: solid;
     border-color: #fff;
-    flex: auto;
 }
 
 .image-python {
@@ -295,10 +286,12 @@ p {
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: 180px;
-    margin: 20px 10px 30px 10px;
+    width: 350px;
+    margin: 20px 30px;
+    margin-left: auto;
+    margin-right: auto;
     border: solid;
     border-color: #fff;
-    flex: auto;
 }
 
 .image-django {
@@ -307,10 +300,12 @@ p {
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: 180px;
-    margin: 20px 10px 30px 10px;
+    width: 350px;
+    margin: 20px 30px;
+    margin-left: auto;
+    margin-right: auto;
     border: solid;
     border-color: #fff;
-    flex: auto;
 }
 
 /*----------------------------------------Footer----------------------------------------*/
@@ -419,7 +414,11 @@ footer {
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: 380px;
-    margin: 80px 10px 20px 10px;
+    width: 350px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 80px;
+    margin-bottom: 20px;
     border: solid;
     border-color: #fff;
 }
@@ -534,7 +533,11 @@ footer {
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: 380px;
-    margin: 80px 10px 20px 10px;
+    width: 350px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 80px;
+    margin-bottom: 20px;
     border: solid;
     border-color: #fff;
     
@@ -589,6 +592,11 @@ footer {
     margin-bottom: 60px;
 }
 
+.section-column {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /*----------------------------------------Contact----------------------------------------*/
 
 .image-top-contact {
@@ -598,7 +606,11 @@ footer {
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: 380px;
-    margin: 80px 10px 20px 10px;
+    width: 350px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 80px;
+    margin-bottom: 20px;
     border: solid;
     border-color: #fff;
     
@@ -636,6 +648,8 @@ input[type=submit]:hover {
 .container.contact-form {
     border-radius: 5px;
     background-color: #1e1e1e;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 40px;
     padding: 20px;
 }
