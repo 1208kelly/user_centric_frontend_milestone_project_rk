@@ -5,28 +5,22 @@
 
 /*----------------------------------------Media Queries-----------------------------------------*/
 /*----------------------------------------Tablets----------------------------------------*/
-@media only screen and (min-width: 768px)
-.container, .container-md, .container-sm {
-    max-width: 50%;
+@media only screen and (min-width: 768px){
+    
 }
 
-.image-top-about {
-    min-height: 100px;
-}
 
 
 /*----------------------------------------Desktops----------------------------------------*/
-@media only screen and (min-width: 1200px)
-.container, .container-lg, .container-md, .container-sm, .container-xl {
-    max-width: 40%;
-}
+@media only screen and (min-width: 1200px){
 
-.image-top-about {
-    min-height: 100px;
-}
+    .image {
+        height: 50vh;
+    }
 
-.btn {
-    display: none;
+    .btn {
+        display: none;
+    }
 }
 
 /*----------------------------------------Header----------------------------------------*/
