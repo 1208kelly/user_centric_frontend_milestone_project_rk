@@ -422,7 +422,6 @@ footer {
     margin: 80px 10px 20px 10px;
     border: solid;
     border-color: #fff;
-    flex: auto;
 }
 
 .spacer-about-top {
@@ -430,6 +429,10 @@ footer {
     margin: 40px 10px;
     background-color: #adb5bd;
     padding: 0px;
+}
+
+.about-bottom-center {
+    margin-top: 80px;
 }
 
 .image-play-one {
@@ -534,7 +537,7 @@ footer {
     margin: 80px 10px 20px 10px;
     border: solid;
     border-color: #fff;
-    flex: auto;
+    
 }
 
 .spacer-history-top {
@@ -598,7 +601,7 @@ footer {
     margin: 80px 10px 20px 10px;
     border: solid;
     border-color: #fff;
-    flex: auto;
+    
 }
 
 input[type=text], select, textarea {
