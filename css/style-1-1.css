@@ -6,13 +6,52 @@
 /*----------------------------------------Media Queries-----------------------------------------*/
 /*----------------------------------------Tablets----------------------------------------*/
 @media only screen and (min-width: 768px){
-    
+    .image-java {
+        min-height: 350px;
+    }
+
+    .image-sql {
+        min-height: none;
+    }
+
+    .image-python {
+        min-height: none;
+    }
+
+    .image-django {
+        min-height: none;
+    }
 }
 
 
 
 /*----------------------------------------Desktops----------------------------------------*/
 @media only screen and (min-width: 1200px){
+    .image-java {
+        background: url(../assets/images/javascript_logo.jpg);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        
+        width: 350px;
+        margin: 20px 30px;
+        margin-left: auto;
+        margin-right: auto;
+        border: solid;
+        border-color: #fff;
+    }
+
+    .image-sql {
+        min-height: 500px;
+    }
+
+    .image-python {
+        min-height: 500px;
+    }
+
+    .image-django {
+        min-height: 500px;
+    }
 
     .image {
         height: 50vh;
@@ -123,6 +162,7 @@
     background-clip: padding-box;
     border: 1px solid rgba(0,0,0,.15);
     border-radius: .25rem;
+    transition: .5s ease-in-out;
 }
 
 .dropdown-item {
@@ -199,7 +239,6 @@ body {
 }
 
 p {
-    font-size: 14px;
     margin-top: 40px;
     margin-bottom: 30px;
     color: #fff;
@@ -244,6 +283,10 @@ p {
     margin: 40px 10px;
     background-color: #adb5bd;
     padding: 0px;
+}
+
+.programming-images {
+
 }
 
 .image-java {
@@ -424,6 +467,11 @@ footer {
     padding: 0px;
 }
 
+.about-para {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .about-bottom-center {
     margin-top: 80px;
 }
@@ -545,11 +593,10 @@ footer {
 }
 
 .timeline-item {
-    margin-left: 20px;
-    padding: 4em 2em 0em 3em;
+    padding: 2em 2em 0em 2em;
     position: relative;
     color: #fafafa;
-    border-left: 1px solid;
+    text-align: center;
 }
 
 .timeline-item p {
@@ -559,13 +606,12 @@ footer {
 
 .timeline-item:before {
     content: attr(data-dates);
-    position: absolute;
     left: 2.5em;
     top: 3em;
     display: block;
-    font-family: "Exo", sans-serif;
+    font-family: "Oswald", sans-serif;
     font-weight: 500;
-    font-size: 0.8em;
+    font-size: 14px;
     padding: 0;
     margin: 0;
 }
@@ -578,7 +624,6 @@ footer {
     position: absolute;
     left: -6px;
     border-radius: 12px;
-    content: '';
     background: #fafafa;
 }
 
