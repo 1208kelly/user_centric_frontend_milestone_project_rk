@@ -6,52 +6,14 @@
 /*----------------------------------------Media Queries-----------------------------------------*/
 /*----------------------------------------Tablets----------------------------------------*/
 @media only screen and (min-width: 768px){
-    .image-java {
-        min-height: 350px;
-    }
-
-    .image-sql {
-        min-height: none;
-    }
-
-    .image-python {
-        min-height: none;
-    }
-
-    .image-django {
-        min-height: none;
-    }
+    
 }
 
 
 
 /*----------------------------------------Desktops----------------------------------------*/
 @media only screen and (min-width: 1200px){
-    .image-java {
-        background: url(../assets/images/javascript_logo.jpg);
-        background-position: center;
-        background-size: 100%;
-        background-repeat: no-repeat;
-        
-        width: 350px;
-        margin: 20px 30px;
-        margin-left: auto;
-        margin-right: auto;
-        border: solid;
-        border-color: #fff;
-    }
-
-    .image-sql {
-        min-height: 500px;
-    }
-
-    .image-python {
-        min-height: 500px;
-    }
-
-    .image-django {
-        min-height: 500px;
-    }
+    
 
     .image {
         height: 50vh;
