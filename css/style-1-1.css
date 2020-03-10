@@ -285,6 +285,15 @@ p {
     padding: 0px;
 }
 
+.spacer-mid-width {
+    height: 1px;
+    margin: 40px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #adb5bd;
+    padding: 0px;
+}
+
 .programming-images {
 
 }
