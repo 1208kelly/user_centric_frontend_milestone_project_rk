@@ -71,6 +71,7 @@
     z-index: 1;
     top: 0;
     left: 0;
+    width: 0;
     background-color: #fff;
     text-align: left;
     overflow-x: hidden;
@@ -115,7 +116,7 @@
 .image-top-home {
     background: url("../assets/images/DeathtoStock_Creative Community3.jpg");
     background-blend-mode: overlay;
-    background-position: bottom;
+    background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: 220px;
