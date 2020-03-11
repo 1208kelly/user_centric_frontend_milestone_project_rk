@@ -88,4 +88,4 @@ I have an about me page just giving a brief intoduction into who I am. I also ha
 
 ### Acknowledgements
 
-* I received inspiration for this project from https://www.jessica-caldwell.com/ and also https://www.webfx.com/blog/web-design/minimalist-portfolio-website/
+* I received inspiration for this project from [Jessica Caldwell](https://www.jessica-caldwell.com/) and also [webfx](https://www.webfx.com/blog/web-design/minimalist-portfolio-website/) and [codrops](https://tympanus.net/codrops/)
