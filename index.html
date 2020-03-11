@@ -14,17 +14,26 @@
         <div class="container-fluid navalert-container">
 
             <nav class="navbar sticky-top navbar-light bg-transparent navbar-expand-sm">
-                
-                <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="fas fa-ellipsis-v"></i>
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                      <a class="dropdown-item" href="about.html">About</a>
-                      <a class="dropdown-item" href="history.html">History</a>
-                      <a class="dropdown-item" href="contact.html">Contact</a>
-                    </div>
+
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="history.html">History</a>
+                    <a href="contact.html">Contact</a>
                   </div>
+                
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="fas fa-bars"></i></span>
+
+                <script>
+                    function openNav() {
+                      document.getElementById("mySidenav").style.width = "250px";
+                    }
+                    
+                    function closeNav() {
+                      document.getElementById("mySidenav").style.width = "0";
+                    }
+                    </script>
                 
                 <a href="index.html" class="navbar-brand">Rob Ó Ceallaigh</a>
             </nav>
