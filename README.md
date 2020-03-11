@@ -65,6 +65,10 @@ I have an about me page just giving a brief intoduction into who I am. I also ha
 
 ## Deployment
 
+To deploy my project I am using GitHub Pages to host, working from my master branch.
+
+To run this code 
+
 {This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).}
 
 {In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:}
