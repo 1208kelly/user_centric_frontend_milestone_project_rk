@@ -170,6 +170,12 @@ p {
     font-size: 8vh;
 }
 
+.page-title {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    padding: 5px;
+}
+
 .skill {
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;

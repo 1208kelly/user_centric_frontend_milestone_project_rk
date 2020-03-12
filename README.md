@@ -31,6 +31,10 @@ I have an about me page just giving a brief intoduction into who I am. I also ha
 
 ## Technologies Used
 
+* [JavaScript]
+
+    * This project uses some JavaScript to operate some features.
+
 * [Bootstrap](https://getbootstrap.com/docs/4.4/layout/overview/)
 
     * This project uses Bootstrap as it is a great toolkit for setting up mobile-first web pages.
