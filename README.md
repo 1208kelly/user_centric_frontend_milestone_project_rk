@@ -67,17 +67,16 @@ I have an about me page just giving a brief intoduction into who I am. I also ha
 
 To deploy my project I am using GitHub Pages to host, working from my master branch.
 
-To run this code 
+* I started by going to github.com and logging into my account.
+* Using the settings tab in the upper menu I scrolled down to "Source" in the "Github Pages" section.
+* By default it was set to none so I selected "Master Branch" and waited for the sie to deploy.
+* Once complete I clocked the link to make sure that my site was opening in my browser.
 
-{This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).}
+To run this code simply, 
 
-{In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:}
-
-* Different values for environment variables (Heroku Config Vars)?
-* Different configuration files?
-* Separate git branch?
-
-{In addition, if it is not obvious, you should also describe how to run your code locally.}
+* Go to [github.com](https://github.com/1208kelly/user_centric_frontend_milestone_project_rk)
+* From here using the "clone of download" button, you can download a copy of my porject to your desktop.
+* On this same page is also a "Gitpod button", you can use this to view my project in Gitpod.
 
 ## Credits
 
@@ -85,6 +84,8 @@ To run this code
 ### Content
 
 * The template for the text used in the "About Me" section was copied from, and then modified to reflect my own description, [About Jessica Caldwell](https://www.jessica-caldwell.com/about)
+
+* The slide menu bar was used from an online tutorial site [w3schools.com](https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp)
 
 ### Media
 
