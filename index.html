@@ -15,6 +15,7 @@
 
             <nav class="navbar sticky-top navbar-light bg-transparent navbar-expand-sm">
 
+                <!-- This slide menu was added from https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp -->
                 <div id="mySidenav" class="sidenav">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                     <a href="index.html">Home</a>
@@ -25,6 +26,7 @@
                 
                 <span style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="fas fa-bars"></i></span>
 
+                <!-- The slide menu uses this javascript to function -->
                 <script>
                     function openNav() {
                       document.getElementById("mySidenav").style.width = "130px";
@@ -43,7 +45,8 @@
 
     <section>
         <div class="row no-gutters image">
-            <div class="col-md-10 image-top-home"></div>
+            <div class="col-md-10 image-top-home">
+            </div>
         </div>
         <div class="container title-bottom-center">
                 <div class="row no-gutters">
@@ -55,8 +58,20 @@
                 </div>
         </div>
 
-        <div class="row no-gutters programming-images">
-            <div class="col-md-10 col-lg-4 image-java"></div>
+        <div class="col-md-10 col-lg-4 container skill-image">
+            <img src="/Users/bobkelso/Desktop/user_centric_frontend_milestone_project_rk-master/assets/images/javascript_logo.jpg" alt="Avatar" class="image-skill" style="width:100%">
+            <div class="middle">
+                <p class="skill-title">JavaScript</p>
+                <div class="skill-bar">
+                    <div class="skills js">5%</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row no-gutters programming-images">
+                <div class="col-md-10 col-lg-4 image-java"></div>
+            </div>
         </div>
         <div class="container title-bottom-center">
             <div class="row no-gutters">
