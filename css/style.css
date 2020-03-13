@@ -9,8 +9,8 @@
 
 @media only screen and (min-width: 320px) {
     .image-top-home {
-        min-height: 200px;
-        width: 38vh;
+        min-height: 9em;
+        width: 18em;
     }
 
     .image-top-title {
@@ -27,8 +27,8 @@
 
 @media only screen and (min-width: 375px) {
     .image-top-home {
-        min-height: 220px;
-        width: 45vh;
+        min-height: 11em;
+        width: 21em;
     }
 
     .image-top-title {
@@ -45,8 +45,8 @@
 
 @media only screen and (min-width: 425px) {
     .image-top-home {
-        min-height: 220px;
-        width: 52vh;
+        min-height: 12em;
+        width: 24em;
     }
 
     .image-top-title {
