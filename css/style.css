@@ -5,8 +5,13 @@
 
 /*----------------------------------------Media Queries-----------------------------------------*/
 /*----------------------------------------Tablets----------------------------------------*/
+
+@media only screen and (min-width: 576px){
+       
+}
+
 @media only screen and (min-width: 768px){
-    
+       
 }
 
 
@@ -75,7 +80,6 @@
 }
 
 .sidenav {
-    font-family: "Roboto Condensed", sans-serif;
     height: 100%;
     position: fixed;
     z-index: 1;
@@ -93,9 +97,12 @@
   }
   
   .sidenav a {
-    padding: 8px 8px 8px 32px;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
     text-decoration: none;
-    font-size: 20px;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 8px 8px 8px 32px;
     color: #818181;
     display: block;
     transition: 0.3s;
@@ -238,6 +245,10 @@ p {
 }
 
 img {
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
     border-style: solid;
     height: 28vh;
 }
@@ -588,6 +599,21 @@ ul {
 }
 
 .timeline-item p {
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item h4 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
     padding: 0;
     margin: 0;
 }
