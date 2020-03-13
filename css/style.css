@@ -4,14 +4,89 @@
 
 
 /*----------------------------------------Media Queries-----------------------------------------*/
-/*----------------------------------------Tablets----------------------------------------*/
 
-@media only screen and (min-width: 576px){
-       
+/*----------------------------------------Mobile----------------------------------------*/
+
+@media only screen and (min-width: 320px) {
+    .image-top-home {
+        min-height: 200px;
+        width: 38vh;
+    }
+
+    .image-top-title {
+        font-size: 7vh;
+    }
+
+    .image-skill {
+        min-height: 200px;
+        width: 38vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
-@media only screen and (min-width: 768px){
-       
+@media only screen and (min-width: 375px) {
+    .image-top-home {
+        min-height: 220px;
+        width: 45vh;
+    }
+
+    .image-top-title {
+        font-size: 9vh;
+    }
+
+    .image-skill {
+        min-height: 220px;
+        width: 45vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    .image-top-home {
+        min-height: 220px;
+        width: 52vh;
+    }
+
+    .image-top-title {
+        font-size: 10vh;
+    }
+
+    .image-skill {
+        min-height: 220px;
+        width: 52vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/*----------------------------------------Tablets----------------------------------------*/
+
+@media only screen and (min-width: 576px) {
+    .image-top-home {
+        min-height: 250px;
+        width: 63vh;
+    }
+
+    .image-top-title {
+        font-size: 6vh;
+    }
+
+    .image-skill {
+        min-height: 220px;
+        width: 52vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    
+}
+
+@media only screen and (min-width: 992px) {
+    
 }
 
 
@@ -24,7 +99,7 @@
     }
 
     .image-skill {
-        min-height: 28vh;
+        height: 28vh;
     }
 
     img {
@@ -138,8 +213,6 @@
     background-size: 100%;
     background-repeat: no-repeat;
     position: relative;
-    min-height: 220px;
-    width: 350px;
     margin-right: auto;
     margin-left: auto;
     margin-top: 80px;
@@ -174,13 +247,11 @@ p {
     color: #fff;
 }
 
-.title {
+.image-top-title {
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
     text-decoration: none;
-    width: 95%;
     font-weight: 400;
-    font-size: 8vh;
 }
 
 .page-title {
@@ -232,16 +303,11 @@ p {
 
 .skill-image {
     position: relative;
-    width: 100%;
 }
   
 .image-skill {
     opacity: 1;
     display: block;
-    width: 100%;
-    
-    transition: .5s ease;
-    backface-visibility: hidden;
 }
 
 img {
@@ -250,7 +316,6 @@ img {
     background-repeat: no-repeat;
     position: relative;
     border-style: solid;
-    height: 28vh;
 }
   
 .middle {
