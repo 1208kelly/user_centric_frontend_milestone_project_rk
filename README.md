@@ -49,6 +49,8 @@ I have an about me page just giving a brief intoduction into who I am. I also ha
 
 ## Testing
 
+I had added links to my actual social media platforms to the links at the bottom of my web page, but I have purposfully linked my Facebook link  only to the Facebook login page as I don't want to share my personal page just yet, but the link to facebook displays that the icon does indeed work and takes you to facebook.com. I will possibly update this at a future date. 
+
 {In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.}
 
 {Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.}
@@ -78,11 +80,13 @@ To deploy my project I am using GitHub Pages to host, working from my master bra
 
 To run this code simply, 
 
-* Go to [github.com](https://github.com/1208kelly/user_centric_frontend_milestone_project_rk)
+* Go to [github.com](https://github.com/1208kelly/user_centric_frontend_milestone_project_rk/)
 * From here using the "clone of download" button, you can download a copy of my porject to your desktop.
 * On this same page is also a "Gitpod button", you can use this to view my project in Gitpod.
 
 ## Credits
+
+* I must give fair credit to 
 
 
 ### Content
