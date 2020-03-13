@@ -49,7 +49,7 @@ I have an about me page just giving a brief intoduction into who I am. I also ha
 
 ## Testing
 
-I had added links to my actual social media platforms to the links at the bottom of my web page, but I have purposfully linked my Facebook link  only to the Facebook login page as I don't want to share my personal page just yet, but the link to facebook displays that the icon does indeed work and takes you to facebook.com. I will possibly update this at a future date. 
+I have tested the social links in the footer of each page, no link is broken and works as expected upon my testing. The link has been set to blank as instructed for this project. I will possibly update this at a future date to link to my socal media pages. 
 
 {In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.}
 
