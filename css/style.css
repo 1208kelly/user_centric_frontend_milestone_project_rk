@@ -50,7 +50,7 @@
     }
 
     .image-top-title {
-        font-size: 10vh;
+        font-size: 7vh;
     }
 
     .image-skill {
@@ -65,12 +65,12 @@
 
 @media only screen and (min-width: 576px) {
     .image-top-home {
-        min-height: 250px;
-        width: 63vh;
+        min-height: 180px;
+        width: 92vh;
     }
 
     .image-top-title {
-        font-size: 6vh;
+        font-size: 8vh;
     }
 
     .image-skill {
@@ -82,17 +82,42 @@
 }
 
 @media only screen and (min-width: 768px) {
-    
+    .image-top-home {
+        min-height: 200px;
+    }
+
+    .image-top-title {
+        font-size: 9vh;
+    }
+
+    .image-skill {
+        min-height: 220px;
+        width: 52vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
-
-@media only screen and (min-width: 992px) {
-    
-}
-
-
 
 /*----------------------------------------Desktops----------------------------------------*/
+
+@media only screen and (min-width: 992px) {
+    .image-top-home {
+        min-height: 220px;
+    }
+
+    .image-top-title {
+        font-size: 9vh;
+    }
+}
+
 @media only screen and (min-width: 1200px){
+    .image-top-home {
+        min-height: 230px;
+    }
+
+    .image-top-title {
+        font-size: 10vh;
+    }
     
     .image-spacer {
         min-height: 25vh;
@@ -107,7 +132,7 @@
     }
 
     .image {
-        height: 50vh;
+        height: 60vh;
     }
 }
 
@@ -209,7 +234,7 @@
     background: url("../assets/images/DeathtoStock_Creative Community3.jpg");
     background-color: #00000080;
     background-blend-mode: overlay;
-    background-position: center;
+    background-position: center 75%;
     background-size: 100%;
     background-repeat: no-repeat;
     position: relative;
