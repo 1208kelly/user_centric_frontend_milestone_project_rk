@@ -214,6 +214,7 @@
     text-decoration: none;
 }
 
+/*------- This slide menu was added from https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp -------*/
 .sidenav {
     height: 100%;
     position: fixed;
