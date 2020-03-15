@@ -18,10 +18,16 @@
     }
 
     .image-skill {
-        min-height: 200px;
-        width: 38vh;
+        min-height: 190px;
+        width: 18em;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .skill-bar {
+        width: 100%;
+        top: 41%;
+        left: 0%;
     }
 }
 
@@ -36,10 +42,16 @@
     }
 
     .image-skill {
-        min-height: 220px;
-        width: 45vh;
+        min-height: 210px;
+        width: 21em;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .skill-bar {
+        width: 100%;
+        top: 42%;
+        left: 0%;
     }
 }
 
@@ -54,10 +66,16 @@
     }
 
     .image-skill {
-        min-height: 220px;
-        width: 52vh;
+        min-height: 240px;
+        width: 24em;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .skill-bar {
+        width: 80%;
+        top: 43%;
+        left: 10%;
     }
 }
 
@@ -74,10 +92,16 @@
     }
 
     .image-skill {
-        min-height: 220px;
+        min-height: 190px;
         width: 52vh;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .skill-bar {
+        width: 60%;
+        top: 42%;
+        left: 20%;
     }
 }
 
@@ -91,15 +115,20 @@
     }
 
     .image-skill {
-        min-height: 220px;
-        width: 52vh;
+        min-height: 200px;
+        width: 55vh;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .skill-bar {
+        width: 72%;
+        top: 42%;
+        left: 13%;
     }
 }
 
 /*----------------------------------------Desktops----------------------------------------*/
-
 @media only screen and (min-width: 992px) {
     .image-top-home {
         min-height: 220px;
@@ -107,6 +136,12 @@
 
     .image-top-title {
         font-size: 9vh;
+    }
+
+    .skill-bar {
+        width: 78%;
+        top: 42%;
+        left: 10%;
     }
 }
 
@@ -366,8 +401,6 @@ img {
 /*------- Skill Bars -------*/
 .skill-bar {
     font-family: "Roboto Condensed", sans-serif;
-    width: 100%;
-    top: 50%;
     position: relative;
     border: solid;
     border-radius: 15px;
@@ -376,7 +409,7 @@ img {
 
 .skills {
     text-align: center;
-    color: #1e1e1e;
+    color: #fff;
 }
 
 .js {
