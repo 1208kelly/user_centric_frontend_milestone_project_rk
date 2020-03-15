@@ -49,29 +49,17 @@ I have an about me page just giving a brief intoduction into who I am. I also ha
 
 ## Testing
 
-I have tested my html and css code using the [w3c validator](https://validator.w3.org/) I have tested the social links in the footer of each page, no link is broken and works as expected upon my testing. The link has been set to blank as instructed for this project. I will possibly update this at a future date to link to my socal media pages. 
+I have tested my html and css code using the [w3c validator](https://validator.w3.org/) with no errors or warnigns to show. I have tested the social links in the footer of each page, no link is broken and works as expected upon my testing. The link has been set to blank as instructed for this project. I will possibly update this at a future date to link to my socal media pages.
 
-{In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.}
-
-{Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.}
-
-{For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:}
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-{In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.}
-
-{You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.}
-
-{If this section grows too long, you may want to split it off into a separate file and link to it from here.}
+I have organised the layout of my code to adjust in different screen sizes, with mobile having the images on the index page the same width, almost the width of the page itself. When increasing to tablet and desktop screens the hero image at the top gets wider while the programming skills images skrink and stick to the center of the screen. 
 
 ## Deployment
 
 To deploy my project I am using GitHub Pages to host, working from my master branch.
+
+To view the deployed code,
+
+* Go to [Rob Kelly's Milestone Project on Github Pages](https://1208kelly.github.io/user_centric_frontend_milestone_project_rk/)
 
 * I started by going to github.com and logging into my account.
 * Using the settings tab in the upper menu I scrolled down to "Source" in the "Github Pages" section.
